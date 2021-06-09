@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    ' 🎯Join Our Channel🎯 ', url="https://t.me/PrimeMoviesTamil"
                                 )
                         ]
                     ]
@@ -50,14 +50,14 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @PrimeMoviesTamil",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🎯Join Our Channel🎯', url="https://t.me/PrimeMoviesTamil"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🎯Join Our Channel🎯', url="https://t.me/PrimeMoviesTamil"
                                 )
                         ]
                     ]
